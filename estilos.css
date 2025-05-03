@@ -49,11 +49,10 @@ nav li.li a:hover {
     background-color: rgb(189, 237, 255);
 }
 
-.foto {
-    position: relative;
-    float: right;
+img {
     width: 180px;
-    border-radius: 10px;
+    border-radius: 30px;
+
 }
 
 section {
