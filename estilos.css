@@ -31,13 +31,12 @@ nav ul {
     background-color: rgb(149, 106, 184);
 }
 
-/* Elementos principales del menu */
+
 nav ul li {
     display: inline-block;
     position: relative;
 }
 
-/* Estilo de los enlaces principales */
 nav ul li a {
     display: block;
     padding: 12px 20px;
@@ -45,7 +44,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Efecto hover para los enlaces principales */
 nav li.li a:hover {
     color: rgb(61, 61, 126);
     background-color: rgb(189, 237, 255);
@@ -85,3 +83,25 @@ tr:nth-child(even) {
 .mis-datos {
     text-align: center;
 }
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+  
+  form input, 
+  form select, 
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  

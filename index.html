@@ -19,6 +19,7 @@
             <li><a href="#Formacion">Formación Académica</a></li>
             <li><a href="#Idiomas">Idiomas</a></li>
             <li><a href="#Tecnologias">Tecnologias</a></li>
+            <li><a href="#Formulario">Formulario de Contacto</a></li>
         </ul>
     </nav>
 
@@ -129,7 +130,34 @@
         </table>
     </section>
 
-    
+    <section id="Formulario">
+        <h3>Formulario de Contacto</h3>
+        <form> 
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+            <label for="email">Correo Electrónico</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono">
+            <br><br>
+            <label for="asunto">Asunto</label>
+            <select id="asunto" name="asunto" required>
+                <option disabled selected>Selecciona un Asunto</option>
+                <option value="ol">Oportunidad Laboral</option>
+                <option value="tr">Trabajo Remoto</option>
+                <option value="to">Trabajo Oficina</option>
+                <option value="en">Entrevista laboral</option>
+            </select>
+            <br><br>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form> 
+    </section>
 
 </body>
 </html>
