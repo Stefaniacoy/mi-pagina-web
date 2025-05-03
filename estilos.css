@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(197, 177, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+header {
+    background-color: rgb(197, 156, 212);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+nav {
+    background-color: rgb(187, 151, 201);
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(149, 106, 184);
+}
+
+/* Elementos principales del menu */
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/* Estilo de los enlaces principales */
+nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Efecto hover para los enlaces principales */
+nav li.li a:hover {
+    color: rgb(61, 61, 126);
+    background-color: rgb(189, 237, 255);
+}
+
+.foto {
+    position: relative;
+    float: right;
+    width: 180px;
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.mis-datos {
+    text-align: center;
+}
