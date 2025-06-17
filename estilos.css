@@ -44,9 +44,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav li.li a:hover {
-    color: rgb(61, 61, 126);
-    background-color: rgb(189, 237, 255);
+nav ul li a:hover {
+    color: rgb(149, 106, 184);
+    background-color: rgb(197, 156, 212);
 }
 
 img {
@@ -81,6 +81,9 @@ tr:nth-child(even) {
 
 .mis-datos {
     text-align: center;
+    background-color: #fae5fd;
+    border-left: 5px solid #956ab8;
+    padding: 20px;
 }
 
 form {
@@ -104,3 +107,35 @@ form {
     border: 1px solid #ccc;
   }
   
+#SobreMi {
+    background-color: #fae5fd;
+    border-left: 5px solid #956ab8;
+    padding: 20px;
+}
+
+#Experiencia {
+    background-color: #fae5fd;
+    border-left: 5px solid #956ab8
+}
+
+#Formacion {
+    background-color: #fae5fd;
+    border-left: 5px solid #956ab8;
+}
+
+#Idiomas {
+    background-color: #f3e5f5;
+    border-left: 5px solid #956ab8;
+}
+
+#Tecnologias{
+    background-color: #f3e5f5;
+    border-left: 5px solid #956ab8;
+}
+
+#Formulario {
+    background-color: #f3e5f5;
+    border-left: 5px solid #956ab8;
+    padding: 25px;
+    border-radius: 10px;
+}
